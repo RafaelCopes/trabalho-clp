@@ -2,6 +2,7 @@ from random import randint
 
 import matplotlib.pyplot as plt
 from _calculations_cffi import ffi, lib
+from matplotlib.pyplot import figure
 
 
 def main():
@@ -34,6 +35,7 @@ def main():
         current = current + 1
 
     with plt.style.context('dark_background'):
+        figure(figsize=(8, 10), dpi=80)
         plt.scatter(x, y, s = 0.2, edgecolor ='green')
         plt.grid(False)
         plt.axis('off')
