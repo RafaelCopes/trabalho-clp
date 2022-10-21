@@ -1,5 +1,8 @@
 #include <calculations.h>
 
+// nesse arquivo estão os cálculos de todas as transformações
+// necessárias para os pontos
+
 float f1_x(float x, float y) {
     return 0.00;
 }

@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from _calculations_cffi import ffi, lib
 from matplotlib.pyplot import figure
 
+# número de ponto a serem redenizados
+POINTS = 50000
 
 def main():
     x = [] 
@@ -13,7 +15,8 @@ def main():
     
     current = 0
 
-    for i in range(1, 50000): 
+    # para cada ponto aplica a função de acordo com sua probabilidade
+    for i in range(1, POINTS): 
         z = randint(1, 100)
 
         if z == 1: 
@@ -34,6 +37,7 @@ def main():
             
         current = current + 1
 
+    # plota a interface
     with plt.style.context('dark_background'):
         figure(figsize=(8, 10), dpi=80)
         plt.scatter(x, y, s = 0.2, edgecolor ='green')

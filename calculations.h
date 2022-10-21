@@ -1,3 +1,5 @@
+// arquivo header(.h)
+
 float f1_x(float x, float y);
 
 float f1_y(float x, float y);
