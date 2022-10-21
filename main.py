@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from _calculations_cffi import ffi, lib
 from matplotlib.pyplot import figure
 
-# número de ponto a serem redenizados
+# número de pontos a serem redenizados
 POINTS = 50000
 
 def main():
