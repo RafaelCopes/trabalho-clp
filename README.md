@@ -22,3 +22,7 @@ Depois disso é só executar o main.py que vai executar o algoritmo
 e gerar a interface:
 
 python3 main.py<br />
+
+Se tiver algum problema para rodar o código, pode me chamar por e-mail:
+
+rafaelcopes16@gmail.com
