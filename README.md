@@ -9,14 +9,14 @@ o CFFI para o bind das linguagens.
 
 Para instalar eles:
 
-python3 -m pip install matplotlib
-python3 -m pip install cffi
+python3 -m pip install matplotlib<br />
+python3 -m pip install cffi<br />
 
 Depois disso é necessario rodar o arquivo calculations_build.py,
 que vai executar o CFFI e gerar a pasta Realise, que tem o link
 com o código C:
 
-python3 calculations_build.py
+python3 calculations_build.py<br />
 
 Depois disso é só executar o main.py que vai executar o algoritmo
 e gerar a interface.
