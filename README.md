@@ -19,4 +19,6 @@ com o código C:
 python3 calculations_build.py<br />
 
 Depois disso é só executar o main.py que vai executar o algoritmo
-e gerar a interface.
+e gerar a interface:
+
+python3 main.py<br />
